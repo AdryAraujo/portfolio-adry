@@ -4,7 +4,7 @@ nav {
     background-color: var(--primary-color);
     position: sticky;
     top: 0;
-    height: 90px;
+    height: 70px;
     padding-bottom: 10px;
 }
 
@@ -59,9 +59,12 @@ nav .menu {
     right: 1rem;
     flex-direction: column;
     justify-content: space-between;
-   
     background-color: none;
     color: #fff;
+}
+
+nav img{
+   padding-left: 10px;
 }
 
 @media (max-width: 579px) {
